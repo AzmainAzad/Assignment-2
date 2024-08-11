@@ -14,7 +14,7 @@
     }
 
 
-    /* Responsive Css of Banner Part */
+    /* Responsive Css of Banner Section */
     .banner{
         flex-direction: column;
         width: 80%;
@@ -90,7 +90,7 @@
     }
 
 
-    /* Responsive Css of Habits Part */
+    /* Responsive Css of Habits Section */
     .habits{
         padding-top: 0px;
     }
@@ -113,5 +113,43 @@
     .habit-item-h4{
         margin-top: 15px;
     }
+
+
+    /* Responsive Css of Run Section */
+    .run{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    .run-text{
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+    .run-text-h2{
+        font-size: 32px;
+    }
+
+    .run-btn{
+        display: block;
+        font-size: 18px;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        padding: 12px 80px;
+        border: none;
+        border-radius: 42px;
+        margin: 20px auto 0;
+    }
+  
+    .run-pic{
+        width: 70%;
+        margin: 20px auto 0;
+    }
+
+    .space-cut{
+        display: none;
+    }
+
 
   }
