@@ -1,0 +1,88 @@
+@media only screen and (max-width: 576px) {
+   .navbar{
+       width: 80%;
+       margin: auto;
+    }
+   .nav-items-container{
+        display: none;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    .banner{
+        flex-direction: column;
+        width: 80%;
+        margin: 40px auto 0;
+    }
+
+    .banner-child1{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .banner-h2{
+        font-size: 35px;
+    }
+
+    .banner-p{
+        font-size: 16px;      
+    }
+    
+    .banner-child2{
+        width: 320px;
+        margin: auto;
+    }
+
+    .btn1{
+        position: absolute;
+        top: 80px;
+        left: 190px;
+        padding: 8px 15px;
+    }
+    
+    .b500{
+        font-size: 20px;
+    }
+    
+    .bfree{
+        font-size: 8px;
+    }
+
+    .btn2{
+        position: absolute;
+        top: 300px;
+        left: -15px;
+        padding: 10px 25px 10px;
+    }
+    
+    .red{
+         position: absolute;
+         height: 15px;
+         width: 15px;
+         left: 8px;
+         top: 22px;
+    }
+    
+    .b350{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    .bvideo{
+        font-size: 8px;
+    }
+
+    .child1-btn1{
+        font-size: 12px;
+        padding: 8px 20px;
+        margin-right: 8px;
+    }
+    
+    .child1-btn2{
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+
+  }
