@@ -40,6 +40,8 @@ header{
 .nav-items-container{
     display: flex;
     align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
 }
 
 .nav-items-container a{
@@ -50,10 +52,17 @@ header{
     list-style: none;
 }
 
-.nav-items{
-    margin-left: 50px;
+.first-item{
+   margin-left: 4px;
 }
 
+.nav-items{
+    margin-right: 50px;
+}
+
+.last-item{
+    margin-right: 20px;
+}
 .home{
     background-color: #E6533C;
     color: white;
@@ -99,7 +108,7 @@ header{
 }
 
 .banner-p{
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-family: "Inter", sans-serif;
     margin-top: 30px;
@@ -193,4 +202,64 @@ header{
 .bvideo{
     font-size: 13px;
     font-family: "Inter", sans-serif;
+}
+
+
+/* Css of Habit Part */
+.habits{
+    background-color: black;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.habits-text{
+    text-align: center;
+}
+
+.habits-text-h2{
+    color: white;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+}
+
+.habits-text-p{
+    color: white;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+}
+
+.habit-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.habit-item{
+    width: 23%;
+    text-align: center;
+}
+
+.habit-item-pic img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.habit-item-h4{
+    color: white;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.habit-item-p{
+    color: white;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
 }

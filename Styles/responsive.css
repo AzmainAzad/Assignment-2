@@ -1,4 +1,6 @@
 @media only screen and (max-width: 576px) {
+
+    /* Responsive Css of Navbar */
    .navbar{
        width: 80%;
        margin: auto;
@@ -11,6 +13,8 @@
         display: block;
     }
 
+
+    /* Responsive Css of Banner Part */
     .banner{
         flex-direction: column;
         width: 80%;
@@ -83,6 +87,31 @@
     .child1-btn2{
         font-size: 12px;
         padding: 8px 20px;
+    }
+
+
+    /* Responsive Css of Habits Part */
+    .habits{
+        padding-top: 0px;
+    }
+
+    .habits-text-h2{
+        font-size: 32px;
+    }
+
+    .habit-items{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .habit-item{
+        width: 70%;
+        margin:  0 auto 70px;
+
+    }
+
+    .habit-item-h4{
+        margin-top: 15px;
     }
 
   }
