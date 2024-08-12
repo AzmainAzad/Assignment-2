@@ -107,7 +107,10 @@
     .habit-item{
         width: 70%;
         margin:  0 auto 70px;
+    }
 
+    .last-item{
+        margin-bottom: 10px;
     }
 
     .habit-item-h4{
@@ -119,6 +122,7 @@
     .run{
         flex-direction: column;
         padding: 20px 30px;
+        margin-top: 50px;
     }
 
     .run-text{
@@ -149,6 +153,85 @@
 
     .space-cut{
         display: none;
+    }
+    
+
+
+    /* Responsive Css of BMI Section */
+    .bmi-text{
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    .bmi-text-h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .bmi-2nd{
+        flex-direction: column;
+        padding: 20px 5px;
+    }
+    
+    .bmi1-2nd{
+        width: 80%;
+        margin: auto;
+        padding-left: 0;
+    }
+    
+    .bmchart{
+        font-size: 20px;
+    }
+
+    table{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    table th{
+        font-size: 14px;
+    }
+
+    table td{
+        font-size: 12px;
+    }
+    
+    .bmi2-2nd{
+        width: 80%;
+        margin: auto;
+    }
+
+    .bmi2-2nd input[type="text"]{
+        margin: 2px;
+    }
+
+    select{
+        margin: 2px;
+    }
+
+    .calbmi{
+        font-size: 20px;
+    }
+
+    .calbmip{
+        font-size: 12px;
+    }
+
+    input::placeholder{
+        font-size: 12px;
+    }
+    
+    .last-input select{
+        width: 83%;
+    }
+    
+    select{
+        font-size: 12px;
+    }
+
+    .cal-btn{
+        font-size: 14px;
+        padding: 10px 50px;
     }
 
 
