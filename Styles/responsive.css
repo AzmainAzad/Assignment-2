@@ -14,6 +14,7 @@
     }
 
 
+
     /* Responsive Css of Banner Section */
     .banner{
         flex-direction: column;
@@ -94,6 +95,7 @@
     }
 
 
+
     /* Responsive Css of Habits Section */
     .habits{
         padding-top: 0px;
@@ -120,6 +122,7 @@
     .habit-item-h4{
         margin-top: 15px;
     }
+
 
 
     /* Responsive Css of Run Section */
@@ -239,6 +242,7 @@
     }
 
 
+
     /* Responsive Css of Team Section */
     .team-text{
         width: 78%;
@@ -274,6 +278,8 @@
         display: none;
     }
 
+
+
     /* Responsive Css of Unique Section */
     .why{
         flex-direction: column;
@@ -298,6 +304,64 @@
         margin-top: 20px;
     }
 
+
     
+    /* Responsive Css of Footer Part */
+    .footer{
+
+    }
+
+    .footupper{
+        flex-direction: column;
+    }
+
+    .footu1{
+        width: 90%;
+        margin: auto;
+        padding-left: 0px;
+    }
+    
+    .footu2{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+    .footu3{
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .footu1h2{
+        font-size: 60px;
+    }
+
+    .footu1p{
+        font-size: 17px;
+    }
+
+    .footu2 ul li{
+        list-style: none;
+        color: rgba(255, 255, 255, 0.51);
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        margin-bottom: 20px;
+    }
+    .footu3 ul li{
+        list-style: none;
+        color: rgba(255, 255, 255, 0.51);
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        margin-bottom: 20px;
+    }
+    
+    .hr{
+        width: 80%;
+    }
+
+    .lastlinep{
+        font-size: 16px;
+    }
 
   }

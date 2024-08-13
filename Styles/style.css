@@ -21,6 +21,8 @@ header{
 }
 
 
+
+
 /* Css of Navbar */
 .navbar{
     max-width: 1100px;
@@ -84,6 +86,8 @@ header{
     color: white;
     display: none;
 }
+
+
 
 
 /* Css of Banner part */
@@ -211,6 +215,8 @@ header{
 }
 
 
+
+
 /* Css of Habit Part */
 .habits{
     background-color: black;
@@ -270,11 +276,15 @@ header{
     margin-top: 10px;
 }
 
- 
+
+
+
 /* Css of Main Part */
 main{
     background-color: black;
 }
+
+
 
 
 /* Css of Run Part */
@@ -329,6 +339,7 @@ main{
     border-radius: 18px;
     object-fit: cover;
 }
+
 
 
 
@@ -466,6 +477,7 @@ select{
 
 
 
+
 /* Css of Team Section */
 .team{
     max-width: 1100px;
@@ -543,6 +555,7 @@ select{
 
 
 
+
 /* Css of Why Section */
 .why{
     max-width: 1200px;
@@ -550,6 +563,7 @@ select{
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
+    padding-bottom: 40px;
 }
 
 .why-text{
@@ -589,4 +603,94 @@ select{
 .why-pic img{
     width: 100%;
 }
+
+
+
+
+/* Css of Footer Part */
+footer{
+    background-color: #222222;
+    padding-top: 60px;
+}
+
+.footupper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footu1{
+    width: 40%;
+    padding-left: 100px;
+}
+
+.footu2{
+    width: 20%;
+}
+
+.footu3{
+    width: 20%;
+}
+
+.footu1h2{
+    color: #E6533C;
+    font-size: 70px;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+.footu1p{
+    color: rgba(255, 255, 255, 0.501);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footu2h3{
+    color: white;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footu2 ul li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.51);
+    font-size: 23px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+
+.footu3h3{
+    color: white;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footu3 ul li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.51);
+    font-size: 23px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+
+.hr{
+    max-width: 1200px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.505);
+    margin-top: 80px;
+}
+
+.lastlinep{
+    color: rgba(255, 255, 255, 0.504);
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
 
