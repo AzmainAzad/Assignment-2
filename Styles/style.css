@@ -107,6 +107,12 @@ header{
     font-weight: 900;
 }
 
+.shape{
+    font-size: 100px;
+    font-family: 'Miama', sans-serif;
+    font-weight: 500;
+}
+
 .banner-p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
@@ -456,4 +462,84 @@ select{
     border: none;
     border-radius: 42px;
     margin-top: 30px;
+}
+
+
+
+/* Css of Team Section */
+.team{
+    max-width: 1100px;
+    margin: auto;
+    border: 2px solid red;
+    margin-top: 80px;
+}
+
+.team-text{
+    text-align: center;
+    color: white;
+}
+
+.team-text-h2{
+    color: white;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.team-text-p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+}
+
+.team-pic-container{
+    background-color: #222222;
+    border: 2px solid blue;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.team-pic-container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-pic-container2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.team-pic{
+    width: 31%;
+    position: relative;
+    border-radius: 12px;
+    border: 2px solid green;
+}
+
+.team-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.team-pic-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.tpt-h4{
+    color: white;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.tpt-h5{
+    color: rgba(255, 255, 255, 0.51);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
 }

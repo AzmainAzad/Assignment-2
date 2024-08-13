@@ -30,6 +30,10 @@
         font-size: 35px;
     }
 
+    .shape{
+        font-size: 55px;
+    }
+
     .banner-p{
         font-size: 16px;      
     }
@@ -234,5 +238,40 @@
         padding: 10px 50px;
     }
 
+
+    /* Responsive Css of Team Section */
+    .team-text{
+        width: 78%;
+        margin: auto;
+    }
+
+    .team-text-h2{
+        font-size: 32px;
+    }
+
+    .team-pic-container1{
+        flex-direction: column;
+    }
+
+    .team-pic-container2{
+        flex-direction: column;
+    }
+
+    .team-pic{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .team-pic-container2{
+        margin-top: 5px;
+    }
+
+    .cut1{
+        display: none;
+    }
+
+    .cut4{
+        display: none;
+    }
 
   }
