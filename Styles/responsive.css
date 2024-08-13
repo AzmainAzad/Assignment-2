@@ -274,4 +274,30 @@
         display: none;
     }
 
+    /* Responsive Css of Unique Section */
+    .why{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .why-text{
+        width: 80%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .why-btn{
+        font-size: 15px;
+        padding: 12px 40px;
+       
+    }
+
+    .why-pic{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    
+
   }
